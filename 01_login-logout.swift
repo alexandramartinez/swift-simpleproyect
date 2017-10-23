@@ -1,6 +1,7 @@
 /* Diccionario de usuarios */
 var adminUser = "admin" // Unico usuario admin. No se puede crear otro
-var usersDict:[String:String] = [adminUser:"adminPwd", "user":"userPwd"] // Usuarios iniciales (incluido admin)
+var usersDict:[String:String] = [adminUser:"adminPwd",
+                                 "user":"userPwd"]
 
 /* Variables */
 var isAdmin = false // 'true' si usuario autenticado es admin. 'false' todo lo demas
